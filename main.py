@@ -39,7 +39,7 @@ def clean_text(text):
         text = text.lower()
     return text
 
-df= pd.read_csv('/content/Sentiment_Data.csv', encoding="ISO-8859-1")
+df= pd.read_csv('Sentiment_Data.csv', encoding="ISO-8859-1")
 df.head()
 
 import seaborn as sns
